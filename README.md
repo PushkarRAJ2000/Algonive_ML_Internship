@@ -32,5 +32,20 @@ Includes **data exploration, visualization, and evaluation** (Precision@5).
 
 ---
 
-### Task 2 – (To be updated)  
+---
+
+## 🧠 Task 2: Defect Detection (Computer Vision)
+🔗 [Go to Task 2 →](./Task_2_Defect_Detection)
+
+**Goal:** Build a Convolutional Neural Network (CNN) to detect defects like *Surface Crack, Delamination, and Pinhole* from manufacturing images.
+
+**Tech Stack:** Python, TensorFlow, Keras, scikit-learn, Matplotlib, Pandas.
+
+**Highlights:**
+- Prepared and cleaned dataset using a custom data pipeline.
+- Trained a CNN model achieving **~89% accuracy**.
+- Evaluated performance using classification metrics and visualized sample predictions.
+- Organized code modularly for dataset preparation, training, and evaluation.
+
+
 ### Task 3 – (To be updated)

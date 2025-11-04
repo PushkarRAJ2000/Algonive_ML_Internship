@@ -7,6 +7,8 @@
 This repository contains all my tasks, projects, and learnings during my internship at Algonive.  
 Each folder represents one task/project assigned during the internship.
 
+📁 Project Submission Note:
+This repository includes both internship tasks — Task 1 (Movie Recommendation System) and Task 2 (Defect Detection In Manufacturing Using AI). Please check respective folders.
 ---
 
 ## 🧠 Tools & Technologies Used
@@ -15,6 +17,8 @@ Each folder represents one task/project assigned during the internship.
 - Scikit-learn
 - Matplotlib, Seaborn
 - VS Code / Google Colab
+
+
 
 ---
 

@@ -1,53 +1,94 @@
-This is Task-3 of my Machine Learning Internship at Algonive.
-In this project, I built a Speech Emotion Recognition System using MFCC audio features and a Random Forest model.
+# 🎤 Speech Emotion Recognition — Task 3 (Algonive ML Internship)
 
-🎯 Objective
-Predict the emotion expressed in an audio speech file using classical Machine Learning.
+This is **Task-3** of my **Machine Learning Internship at Algonive**.  
+In this project, I built a **Speech Emotion Recognition System** using MFCC audio features and a Random Forest model.
 
-🛠️ Tech Stack
-Python
-Librosa (for audio feature extraction)
-NumPy / Pandas
-Scikit-Learn
-Joblib
+---
 
-📂 Project Structure
+## 🎯 Objective
+Predict the **emotion** expressed in an audio speech file using classical Machine Learning.
+
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Librosa (for audio feature extraction)  
+- NumPy  
+- Pandas  
+- Scikit-Learn  
+- Joblib  
+- SoundFile / AudioRead  
+
+---
+
+## 📂 Project Structure
+
 Task_3/
 │
 ├── src/
-│   ├── load_data.py
-│   ├── extract_features.py
-│   ├── train_rf_model.py
-│   └── predict_emotion.py
+│ ├── load_data.py
+│ ├── extract_features.py
+│ ├── train_rf_model.py
+│ └── predict_emotion.py
 │
 ├── models/
-│   ├── rf_model.pkl
-│   └── label_encoder.pkl
+│ ├── rf_model.pkl
+│ └── label_encoder.pkl
 │
 ├── data/
-│   └── processed/   (features not uploaded – size too large)
+│ └── processed/ (not uploaded due to size limit)
 │
 └── README.md
 
-🎵 Dataset
-Used RAVDESS Speech Emotion Dataset
-(Link publicly available online)
 
-🔍 Model Used
-Random Forest Classifier
-Achieved around 71% accuracy
+---
 
-📈 Pipeline
-Load raw audio files
-Extract MFCC features
-Train Random Forest model
-Save model + label encoder
+## 🎵 Dataset
 
-Predict emotion from a test audio file
+**RAVDESS Speech Emotion Audio Dataset**  
+Download Link: https://zenodo.org/record/1188976
 
-▶️ Run Prediction
+(Contains emotional speech from 24 actors with 8 emotion classes)
+
+---
+
+## 🔍 Model Details
+- Model: **Random Forest Classifier**
+- Features: **MFCC (40 coefficients)**
+- Accuracy: **~71%**
+
+---
+
+## 📈 Pipeline Overview
+
+1. Load raw audio files  
+2. Extract MFCC features using Librosa  
+3. Create training dataset  
+4. Train Random Forest classifier  
+5. Save model and label encoder  
+6. Predict emotion from audio file  
+
+---
+
+## ▶️ How to Run Prediction
+
+### 1) Install dependencies  
+pip install librosa numpy pandas scikit-learn joblib soundfile audioread
+
+### 2) Run prediction script  
 python predict_emotion.py
 
-🙌 Thanks
+---
 
-Thanks to Algonive for this Machine Learning internship opportunity!
+## 📌 Output Example
+
+Predicted Emotion: calm
+
+
+---
+
+## 🙌 Acknowledgement
+
+Thanks to **Algonive** for providing this Machine Learning internship opportunity  
+and guiding me through real-world ML projects.
+

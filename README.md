@@ -52,4 +52,24 @@ Includes **data exploration, visualization, and evaluation** (Precision@5).
 - Organized code modularly for dataset preparation, training, and evaluation.
 
 
-### Task 3 – (To be updated)
+### Task 3 – Algonive_Speech_Recognition_System
+🗣️ Task 3: Speech Emotion Recognition (Audio ML)
+
+🔗 Go to Task 3 →
+https://github.com/PushkarRAJ2000/Algonive_ML_Internship/tree/main/Task_3/Algonive_Speech_Emotion_Recognition
+
+Goal: Build a machine learning model that listens to an audio file and predicts the emotion such as Calm, Happy, Angry, Sad, Fearful, Neutral, Disgust, Surprise.
+
+Tech Stack: Python, Librosa, NumPy, Pandas, Scikit-learn, Joblib.
+
+Highlights:
+
+Extracted MFCC audio features from the RAVDESS dataset.
+
+Trained a Random Forest Classifier achieving ~71% accuracy.
+
+Built a complete pipeline for data loading → feature extraction → model training → prediction.
+
+Saved trained model (rf_model.pkl) for real-time emotion detection.
+
+Added a clean README + GitHub project structure for easy evaluation.

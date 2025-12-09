@@ -56,7 +56,7 @@ Includes **data exploration, visualization, and evaluation** (Precision@5).
 🗣️ Task 3: Speech Emotion Recognition (Audio ML)
 
 🔗 Go to Task 3 →
-https://github.com/PushkarRAJ2000/Algonive_ML_Internship/tree/main/Task_3/Algonive_Speech_Emotion_Recognition
+https://github.com/PushkarRAJ2000/Algonive_ML_Internship/tree/main/Algonive_Speech_Emotion_Recognition
 
 Goal: Build a machine learning model that listens to an audio file and predicts the emotion such as Calm, Happy, Angry, Sad, Fearful, Neutral, Disgust, Surprise.
 

@@ -78,21 +78,21 @@ Added a clean README + GitHub project structure for easy evaluation.
 
 📈 Task 4: Stock Price Prediction (Time Series ML)
 
-🔗 Go to Task 4 →
+🔗 Go to Task 4 → [Go to Task 2 →](./Task_4_Stock_Prediction_System)
 
-Goal:
+**Goal:**
 Build a Stock Price Prediction System to forecast the next day’s closing price using historical stock market data.
 
-Dataset:
+**Dataset:**
 
 Source: Kaggle (NSE India Historical Stock Data – ~197 MB)
 
 Used a lightweight subset: WIPRO.NS.csv for efficient processing
 
-Tech Stack:
+**Tech Stack:**
 Python, Pandas, NumPy, Matplotlib, scikit-learn, Joblib
 
-Highlights:
+**Highlights:**
 
 Loaded and preprocessed historical NSE stock data
 

@@ -8,8 +8,7 @@ This repository contains all my tasks, projects, and learnings during my interns
 Each folder represents one task/project assigned during the internship.
 
 📁 Project Submission Note:
-This repository includes both internship tasks — Task 1 (Movie Recommendation System) and Task 2 (Defect Detection In Manufacturing Using AI). Please check respective folders.
----
+This repository demonstrates practical, end-to-end machine learning projects completed during my internship at Algonive.
 
 ## 🧠 Tools & Technologies Used
 - Python
@@ -73,3 +72,39 @@ Built a complete pipeline for data loading → feature extraction → model trai
 Saved trained model (rf_model.pkl) for real-time emotion detection.
 
 Added a clean README + GitHub project structure for easy evaluation.
+
+
+🧠 Task 4 – Stock Price Prediction System
+
+📈 Task 4: Stock Price Prediction (Time Series ML)
+
+🔗 Go to Task 4 →
+
+Goal:
+Build a Stock Price Prediction System to forecast the next day’s closing price using historical stock market data.
+
+Dataset:
+
+Source: Kaggle (NSE India Historical Stock Data – ~197 MB)
+
+Used a lightweight subset: WIPRO.NS.csv for efficient processing
+
+Tech Stack:
+Python, Pandas, NumPy, Matplotlib, scikit-learn, Joblib
+
+Highlights:
+
+Loaded and preprocessed historical NSE stock data
+
+Visualized long-term stock price trends
+
+Trained a Linear Regression model (lightweight & old-laptop friendly)
+
+Achieved ~0.99 R² score on test data
+
+Predicted next day’s stock closing price
+
+Built a clean ML pipeline:
+Data Loading → Visualization → Model Training → Prediction
+
+Status: ✅ Completed

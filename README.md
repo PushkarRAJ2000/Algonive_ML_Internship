@@ -74,7 +74,7 @@ Saved trained model (rf_model.pkl) for real-time emotion detection.
 Added a clean README + GitHub project structure for easy evaluation.
 
 
-🧠 Task 4 – Stock Price Prediction System
+### 🧠 Task 4 – Stock Price Prediction System
 
 📈 Task 4: Stock Price Prediction (Time Series ML)
 

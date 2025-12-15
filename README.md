@@ -54,14 +54,13 @@ Includes **data exploration, visualization, and evaluation** (Precision@5).
 ### Task 3 – Algonive_Speech_Recognition_System
 🗣️ Task 3: Speech Emotion Recognition (Audio ML)
 
-🔗 Go to Task 3 →
-https://github.com/PushkarRAJ2000/Algonive_ML_Internship/tree/main/Algonive_Speech_Emotion_Recognition
+🔗 [Go to Task 3 →](./Algonive_Speech_Emotion_Recognition)
 
-Goal: Build a machine learning model that listens to an audio file and predicts the emotion such as Calm, Happy, Angry, Sad, Fearful, Neutral, Disgust, Surprise.
+**Goal:** Build a machine learning model that listens to an audio file and predicts the emotion such as Calm, Happy, Angry, Sad, Fearful, Neutral, Disgust, Surprise.
 
-Tech Stack: Python, Librosa, NumPy, Pandas, Scikit-learn, Joblib.
+**Tech Stack:** Python, Librosa, NumPy, Pandas, Scikit-learn, Joblib.
 
-Highlights:
+**Highlights:**
 
 Extracted MFCC audio features from the RAVDESS dataset.
 
@@ -78,7 +77,7 @@ Added a clean README + GitHub project structure for easy evaluation.
 
 📈 Task 4: Stock Price Prediction (Time Series ML)
 
-🔗 Go to Task 4 → [Go to Task 2 →](./Task_4_Stock_Prediction_System)
+🔗[Go to Task 4 →](./Task_4_Stock_Prediction_System)
 
 **Goal:**
 Build a Stock Price Prediction System to forecast the next day’s closing price using historical stock market data.
